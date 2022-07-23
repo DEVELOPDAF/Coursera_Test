@@ -1,24 +1,18 @@
-/* This are the css styles for the assignment  */
+/* This are the css styles for the assignment */ 
 
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {font-size: 12px;
+      color: white;
+      background-color: rgba(10, 104, 68, 0.77);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#navbar{
+    background-color: rgb(204, 176, 16);
+    border-radius: 0%;
+    border: 0;
 
-html {
-    background-color: rgb(215, 189, 123);
 }
-
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h1 {
-    padding: 15px 0 15px 0;
-    text-align: center;
-    font-size: 1.75em;
+.navbar-brand{
+    font-size: 30px;
 }
 
 .container {
@@ -26,15 +20,20 @@ h1 {
     height: auto;
     margin:2px;
 }
-
-.box {
-    display: inline-block;
-    border: 1px solid black;
-    position: relative;
-    background: #ffffe6;
-    height: auto;
-    margin-bottom: 10px;
+.container #box {
+    margin:auto;
+    
+    
 }
+
+#box {
+    display: inline-block;
+    position: relative;
+    background: rgb(81, 78, 78);
+    height: auto;
+    margin-bottom: 12px;
+}
+
 
 p {
     padding: 40px 10px 4px 10px;
@@ -45,14 +44,20 @@ h4 {
     text-align: center;
 }
 
-.label {
-    border: 1px solid black;
+h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+.label { 
     font-size: 1.25em;
     position: absolute;
     top: 0;
     right: 0;
     width: 100px;
+    margin:auto;
 }
+
 
 #label1 {
     background:cornflowerblue;
@@ -64,39 +69,4 @@ h4 {
 
 #label3 {
     background: plum;
-}
-
-
-/* This is the @media code for Desktop */
-
-@media (min-width: 992px) and (max-width: 2560px) {
-    .box {
-        width: 33%;
-    }
-}
-
-
-/* This is the @media code for the tablet devices */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    div#box1.box {
-        width: 50%;
-    }
-
-    div#box2.box {
-        width: 50%;
-    }
-
-    div#box3.box {
-        width: 100%;
-    }
-}
-
-
-/* This is the @media code for Mobile devices */
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .box {
-        width: 100%;
-    }
 }
