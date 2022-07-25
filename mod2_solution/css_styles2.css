@@ -18,10 +18,12 @@ body {font-size: 12px;
 .container {
     width: 100%;
     height: auto;
-    margin:2px;
+    
 }
 .container #box {
-    margin:auto;
+    margin:5px;
+    
+
     
     
 }
@@ -31,7 +33,7 @@ body {font-size: 12px;
     position: relative;
     background: rgb(81, 78, 78);
     height: auto;
-    margin-bottom: 12px;
+    
 }
 
 
@@ -70,3 +72,40 @@ h2{
 #label3 {
     background: plum;
 }
+
+/* This is the @media code for Desktop */
+
+@media (min-width: 992px) and (max-width: 2560px) {
+    #box {
+        width: 32%;
+    }
+}
+
+
+/* This is the @media code for the tablet devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div#box1 .box {
+        width: 50%;
+    }
+
+    div#box2 .box {
+        width: 50%;
+    }
+
+    div#box3 .box {
+        width: 100%;
+    }
+}
+
+
+/* This is the @media code for Mobile devices */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .box {
+        width: 100%;
+    }
+}
+
+
+
