@@ -1,8 +1,9 @@
 //* This are the css styles for the assignment */ 
 
-body {font-size: 12px;
+body {
+      background-color: #FFC18E;
+      font-size: 12px;
       color: white;
-      background-color: #FFC18E; 
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #navbar{
@@ -21,10 +22,7 @@ body {font-size: 12px;
     
 }
 .container #box {
-    margin:5px;
-    
-
-    
+    margin:5px;    
     
 }
 
